@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GQpQCyAezmosoFtLMoWFShk3/ZvslJYHG3ScY2wg0lP7s6tPeaOHaLHq7KNfaDOio37D2x0LQxYtFn+noFAUIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nathan\\GitHub\\ECSTest\\DefaultTest\\DefaultTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nathan\\.nuget\\packages\\defaultecs\\0.17.2\\defaultecs.0.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

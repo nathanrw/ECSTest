@@ -1,0 +1,304 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Arch/1.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Collections.Pooled": "2.0.0-preview.27",
+          "CommunityToolkit.HighPerformance": "7.1.2",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "ZeroAllocJobScheduler": "1.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Arch.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Arch.dll": {}
+        }
+      },
+      "Arch.System/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Arch.System.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Arch.System.dll": {}
+        }
+      },
+      "Collections.Pooled/2.0.0-preview.27": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Collections.Pooled.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Collections.Pooled.dll": {}
+        }
+      },
+      "CommunityToolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CommunityToolkit.HighPerformance.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.HighPerformance.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "ZeroAllocJobScheduler/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ObjectPool": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/JobScheduler.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/JobScheduler.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Arch/1.1.6": {
+      "sha512": "8UOsTSZJOPRd413oQdN1Te10aTi+iCANEi4C41zLSAk20x0j/oi2b8q7ySIJvQBH+J7w9OqoU92/fDwreJlWsg==",
+      "type": "package",
+      "path": "arch/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "arch.1.1.6.nupkg.sha512",
+        "arch.nuspec",
+        "lib/net6.0/Arch.dll",
+        "lib/net6.0/Arch.xml",
+        "lib/net7.0/Arch.dll",
+        "lib/net7.0/Arch.xml",
+        "lib/netstandard2.1/Arch.dll",
+        "lib/netstandard2.1/Arch.xml"
+      ]
+    },
+    "Arch.System/1.0.1": {
+      "sha512": "OSGTMMMbt4GbdJH7fuDG5jZSMzPCT9Xy4zcaXS22g8zid/Wzo5ckWmO85HmdWjRuH/T4A6LTN2cJwGV+djSH8Q==",
+      "type": "package",
+      "path": "arch.system/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "arch.system.1.0.1.nupkg.sha512",
+        "arch.system.nuspec",
+        "lib/net6.0/Arch.System.dll",
+        "lib/net6.0/Arch.System.xml",
+        "lib/net7.0/Arch.System.dll",
+        "lib/net7.0/Arch.System.xml",
+        "lib/netstandard2.1/Arch.System.dll",
+        "lib/netstandard2.1/Arch.System.xml"
+      ]
+    },
+    "Collections.Pooled/2.0.0-preview.27": {
+      "sha512": "VS3uHc1GNamanS1i1hQ3PoZUddIagCswVMWvucAgqWwY2KVwgL2Q7raGu0hTqP/CWuROoq0RiNbIvu4ST1bMzg==",
+      "type": "package",
+      "path": "collections.pooled/2.0.0-preview.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "collections.pooled.2.0.0-preview.27.nupkg.sha512",
+        "collections.pooled.nuspec",
+        "lib/net461/Collections.Pooled.dll",
+        "lib/net461/Collections.Pooled.xml",
+        "lib/netcoreapp3.0/Collections.Pooled.dll",
+        "lib/netcoreapp3.0/Collections.Pooled.xml",
+        "lib/netstandard2.0/Collections.Pooled.dll",
+        "lib/netstandard2.0/Collections.Pooled.xml",
+        "lib/netstandard2.1/Collections.Pooled.dll",
+        "lib/netstandard2.1/Collections.Pooled.xml"
+      ]
+    },
+    "CommunityToolkit.HighPerformance/7.1.2": {
+      "sha512": "rVNzu/HQd60e8sInhHLpboWF9PU/kgenTxKYScjU3EpGMlCnSifomqiJuDhN4MILVioIwpm7eiurQNpngbWpAw==",
+      "type": "package",
+      "path": "communitytoolkit.highperformance/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.highperformance.7.1.2.nupkg.sha512",
+        "communitytoolkit.highperformance.nuspec",
+        "lib/net5.0/CommunityToolkit.HighPerformance.dll",
+        "lib/net5.0/CommunityToolkit.HighPerformance.pdb",
+        "lib/net5.0/CommunityToolkit.HighPerformance.xml",
+        "lib/netcoreapp2.1/CommunityToolkit.HighPerformance.dll",
+        "lib/netcoreapp2.1/CommunityToolkit.HighPerformance.pdb",
+        "lib/netcoreapp2.1/CommunityToolkit.HighPerformance.xml",
+        "lib/netcoreapp3.1/CommunityToolkit.HighPerformance.dll",
+        "lib/netcoreapp3.1/CommunityToolkit.HighPerformance.pdb",
+        "lib/netcoreapp3.1/CommunityToolkit.HighPerformance.xml",
+        "lib/netstandard1.4/CommunityToolkit.HighPerformance.dll",
+        "lib/netstandard1.4/CommunityToolkit.HighPerformance.pdb",
+        "lib/netstandard1.4/CommunityToolkit.HighPerformance.xml",
+        "lib/netstandard2.0/CommunityToolkit.HighPerformance.dll",
+        "lib/netstandard2.0/CommunityToolkit.HighPerformance.pdb",
+        "lib/netstandard2.0/CommunityToolkit.HighPerformance.xml",
+        "lib/netstandard2.1/CommunityToolkit.HighPerformance.dll",
+        "lib/netstandard2.1/CommunityToolkit.HighPerformance.pdb",
+        "lib/netstandard2.1/CommunityToolkit.HighPerformance.xml"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/7.0.0": {
+      "sha512": "udvKco0sAVgYGTBnHUb0tY9JQzJ/nPDiv/8PIyz69wl1AibeCDZOLVVI+6156dPfHmJH7ws5oUJRiW4ZmAvuuA==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net462/Microsoft.Extensions.ObjectPool.xml",
+        "lib/net7.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net7.0/Microsoft.Extensions.ObjectPool.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.7.0.0.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ZeroAllocJobScheduler/1.0.2": {
+      "sha512": "2zQrqXKOUkpy3F0m0Hc69cFjblXAgTmrFSMpqVQt0V0QQknJrfmlaebyosA6N6qfC8klcqfKTWPb9H0xbnGbQw==",
+      "type": "package",
+      "path": "zeroallocjobscheduler/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/JobScheduler.dll",
+        "lib/netstandard2.1/JobScheduler.xml",
+        "zeroallocjobscheduler.1.0.2.nupkg.sha512",
+        "zeroallocjobscheduler.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Arch >= 1.1.6",
+      "Arch.System >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nathan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Nathan\\GitHub\\ECSTest\\ArchTest\\ArchTest.csproj",
+      "projectName": "ArchTest",
+      "projectPath": "C:\\Users\\Nathan\\GitHub\\ECSTest\\ArchTest\\ArchTest.csproj",
+      "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nathan\\GitHub\\ECSTest\\ArchTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Arch": {
+            "target": "Package",
+            "version": "[1.1.6, )"
+          },
+          "Arch.System": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
